@@ -18,7 +18,7 @@ export async function main(ns) {
 	serverTargetArray = [];
 	currentHackingLevel = ns.getHackingLevel();
 	await exploreLevel(ns, "home", "home", "", 0);
-	let scriptRam = ns.getScriptRam("farmAll.js");
+	let scriptRam = ns.getScriptRam(targetScript);
 	message = "next: " + pwned + "/" + totalServers + " servers rooted"
 	ns.toast(message, "success", 30000)
 	ns.print("Targets = ", serverArray);
