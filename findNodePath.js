@@ -9,7 +9,7 @@ export async function main(ns) {
 	if (target == null) {
 		ns.tprint('Arguments:')
 		ns.tprint('* - returns all node names')
-		ns.tprint('[nodename] - returns the path of the node if found');
+		ns.tprint('[node name] - returns the path of the node if found');
 		return;	
 	}
 	let serverArray = await getAllServers(ns); // get all the server names
