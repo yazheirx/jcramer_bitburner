@@ -3,7 +3,7 @@ export async function main(ns, overWright = false) {
 
 	let target = ns.args[0];
 
-	var scriptNames = ["roboFarm.js", "next.js"];
+	var scriptNames = ["roboFarm.js", "utils.js"];
 	var scriptName = "";
 	var targetServerID = 0;
 	var targetScriptID = 0;
