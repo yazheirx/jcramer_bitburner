@@ -31,8 +31,6 @@ export async function main(ns, overWright = false) {
 					await ns.sleep(500);
 					await writeThis(ns, scriptName, target)
 				};
-
-
 				targetScriptID++
 			} else {
 				runningScripts = false;
