@@ -5,7 +5,7 @@ export async function main(ns, overWright = false) {
 
 	var scriptNames = ["roboFarm.js", "utils.js"];
 	var scriptName = "";
-	var targetServerID = 0;
+	// var targetServerID = 0; Unused
 	var targetScriptID = 0;
 	var runningServers = true;
 	var runningScripts = true;
