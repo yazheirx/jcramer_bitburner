@@ -3,12 +3,12 @@ export async function main(ns, overWright = false) {
 
 	let target = ns.args[0];
 
-	var scriptNames = ["roboFarm.js", "utils.js"];
-	var scriptName = "";
-	// var targetServerID = 0; Unused
-	var targetScriptID = 0;
-	var runningServers = true;
-	var runningScripts = true;
+	let scriptNames = ["roboFarm.js", "utils.js"];
+	let scriptName = "";
+	// let targetServerID = 0; Unused
+	let targetScriptID = 0;
+	let runningServers = true;
+	let runningScripts = true;
 	// ns.tprint("Checking: ", target);
 	targetScriptID = 0;
 	runningScripts = true;
